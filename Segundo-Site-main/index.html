@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sensibilidade</title>
+
+    <!-- Link para um arquivo de estilo CSS chamado "estilo.css" -->
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    <!-- Navegação -->
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#encomendas">Encomenda </a>
+    </nav>
+    <!-- Cabeçalho com uma imagem de banner -->
+    <header>
+        <img src="img/bannerflor.jpg">
+    </header>
+
+    <!-- Artigo sobre a empresa -->
+    <article id="sobre">
+        <h1>Quem somos?</h1>
+        <p>Existimos para eternizar datas importantes comercializando <strong>flores, plantas e utilitários de jardinagem</strong> sempre em busca da excelência, garantimos a qualidade no atendimento e produtos. Nesse empreendimento envolvemos tudo que acreditamos ser importante, assim consolidamos nossa identidade.</p>
+        <p>Prezamos por valores como: <strong>auto sustentabilidade, independência, clareza, otimismo, solidariedade, integridade e pela natureza.</strong></p>
+        <p>Temos a visão de consolidar nossa inquestionável qualidade para além da regionalidade, expandindo em busca do título: a maior e bem avaliada floricultura de todo o centro-oeste.</p>
+    </article>
+
+    <!-- Seção de produtos -->
+    <section id="produtos"> 
+        <h1 id=" ">Produtos:</h1>
+        <div id="container">
+            <!-- Cards de produtos -->
+            <div class="card">
+                <img class="Produtosimg" src="img/vasoviat.jpg">
+                <div class="incard">
+                    <h3>Vaso Viatnamita.</h3>
+                    <p class="pcard">199.50 $</p>
+                </div>
+            </div>
+            <!-- Outros cards de produtos similares aqui -->
+						<div class="card">
+							<img class="Produtosimg" src="img/tesoura_jardim.jpg">
+							<div class="incard">
+									<h3>Tesoura Jardim.</h3>
+									<p class="pcard">43.50 $</p>
+							</div>
+            </div>
+						<div class="card">
+							<img class="Produtosimg" src="img/muda_ipe.jpg">
+							<div class="incard">
+									<h3>Muda de Ipê.</h3>
+									<p class="pcard">25.50 $</p>
+							</div>
+					</div>
+        </div>
+    </section>
+
+    <!-- Seção de encomendas -->
+    <section id="encomendas">
+        <h1>Encomendas:</h1> 
+        <!-- Formulário de encomenda -->
+        <form name="" method="" action="">
+            <label for="Name">Nome:</label><br/>
+            <input id="name" type="text" size="50" placeholder="Nome Completo" required>
+            <br/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input id="email" type="email" size="50" placeholder="exemple123@email.com" required>
+            <br/><br/>
+
+            <div id="formflex">
+                <div class="boxform">
+                    <label for="Produtos">Produtos:</label><br/>
+                    <select>
+                        <option>Selecione.</option>
+                        <option value="Vaso_viatnamita">Vaso Viatnamita.</option>
+                        <!-- Outras opções de produtos aqui -->
+												<option value="tesoura_jardim">Tesoura de Jardinagem</option>
+												<option value="muda_ipe">Muda de Ipê</option>
+                    </select>
+                </div>
+                <div class="boxform">
+                    <label>Quantidade:</label>
+                    <input type="number" name="quantidade" min="1" max="20" step="1" required>
+                </div>
+            </div>
+
+            <fieldset>
+                <legend>Formas de Retiradas</legend>
+                <input id="delivery" type="radio" name="retiradaforma" value="delivery">
+                <label for="delivery">Delivery </label><br/>
+
+                <input id="local" type="radio" name="retiradaforma" value="local">
+                <label for="local">Retirada no local</label>
+            </fieldset>
+
+            <label>Mensagem</label>
+            <textarea id="Mensagem" cols="67" rows="7"></textarea>
+
+            <div id="botaoform">
+                <input type="submit" name="Botao-enviar" value="Encomendar" />
+                <input type="reset" name="botao-cancelar" value="Cancelar" />
+            </div>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p id="footer"><a id="insta" href="https://www.instagram.com/gabrielg_o/" target="_blank">Desenvolvido por Gabriel Galvão - 2022</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+/* link de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Markazi+Text:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+/* fim */
+
+/* Body*/
+
+body{
+	background-color: white;
+}
+/* fim body*/
+
+/* menu*/
+
+nav{
+	background-color: #00796b;
+	text-align: right;
+	width: 100%;
+	height: 50px;
+	
+
+}
+
+a{
+	color: #DAE2E9;
+	font: 1.5rem 'Kaushan Script', cursive;
+	text-decoration:none ;
+	margin: 10px;
+}
+
+a:hover{
+	color: whitesmoke;
+	text-shadow: 1px 1px 2px #90ee90;
+}
+
+
+/* fim  menu*/
+
+/* Banner */
+header, img{
+	width: 100%;
+}
+
+/* fim Banner */
+
+/*  SOBRE */
+article{
+	width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+ h1{
+	 font-family: 'Kaushan Script', cursive;
+	text-align: justify;
+	color:#feffff ;
+
+	font size: 50px;
+	margin-bottom: 20px;
+	background-color: #83c9b6;
+	border-radius: 5px;
+	padding-left: 10px;
+
+	
+}
+
+ p{
+	text-align: justify;
+	font-size: 23px;
+	font-family:Roboto, sans-serif;
+	margin: 20px;
+	color:#00796b;
+	line-height: 25px;
+
+}
+
+/*Fim Sobre */
+/* produtos imagens */
+
+#container{
+	display: flex;
+	justify-content: center;
+
+}
+#produtos{
+	padding: 25px;
+} 
+
+.card{
+	background-color: #fff;
+	margin:10px;
+	width: 25%;
+	box-shadow: 1px 1px 10px #00796b ;
+	border-radius: 4px 4px 4px;
+	padding: 3px;
+
+}
+.card:hover{
+	box-shadow: 2px 1px 10px #00896b ;
+}
+.incard{
+	padding: 10px;
+}
+.incard p{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+h3{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color:#00796b ;
+	text-shadow: 1px 1px 5px #2dffd6;
+
+}
+
+
+/* fim produtos imagens */
+
+
+/* formulario */
+
+#encomendas{
+	padding: 25px;
+}
+form{
+	background-color: #fff;
+	width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 2px 1px 10px #00896b;
+	border-radius: 10px;
+}
+input, select{
+	width: 100%;
+	height: 30px;
+	margin: 10px;
+	padding-left:20px ;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c6;
+}
+label{
+	padding: 10px;
+}
+label,fieldset, input, select,textarea{
+	font-family:Roboto, sans-serif;
+	color: #00796b ;
+
+}
+textarea{
+	margin: 10px;
+	padding-left:20px ;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c6;
+}
+fieldset{
+	border: 1px solid #c4c4c6;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	
+}
+
+
+input[type="radio"]{
+	width: 14px;
+	height: 15px;
+	marhin:5px ;
+}
+
+#botaoform{
+	display: flex;
+}
+
+input[type="submit"],input[type="reset"]{
+	background-color: #84ffaa;
+	margin: 20px;
+	border: 0;
+	color: black;
+	border-radius: 5px;
+
+}
+input[type="reset"]{
+	background-color: #ffbbb1;
+}
+input[type="reset"]:hover{
+	box-shadow: 1px 1px 10px #ff7524;
+}
+input[type="submit"]:hover{
+	box-shadow: 1px 1px 10px #1bf400;
+}
+/* fim formulario */
+
+/*footer*/
+#footer{
+	text-align: center;	
+	color: whitesmoke;
+}
+footer{
+	background-color: #00796b;
+	padding: 1px;
+
+
+}
+#insta:hover{
+	color: whitesmoke;
+}
+
+
+*{margin: 0; padding: 0;}
